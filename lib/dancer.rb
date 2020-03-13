@@ -6,8 +6,9 @@ require_relative './dance_module.rb'
 #include keyword allow our classes to use all of the methods of the included module as instance methods
 
 class Dancer 
- include Dance 
- extend MetaDancing
+ #include Dance 
+ #extend MetaDancing
+ 
  
  attr_accessor :name 
  
